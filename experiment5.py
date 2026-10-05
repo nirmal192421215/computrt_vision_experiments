@@ -25,7 +25,7 @@ def analyze_color_histogram(image):
     plt.tight_layout()
     plt.show()
 
-image = cv2.imread("CV.png")
+image = cv2.imread("sample_image.png")
 
 if image is None:
     print("Error: Image not found!")
