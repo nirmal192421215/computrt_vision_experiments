@@ -171,3 +171,83 @@ This document outlines the computer vision experiments implemented using Python 
 - **Output**: 
 
 ![Experiment 17 Output](outputs/output_exp17.png)
+
+---
+
+## Experiment 18: Image Cropping, Copying & Pasting (ROI)
+- **Source File**: `experiment18.py`
+- **Input**: `sample_image.png`
+- **Operation**: NumPy array slicing for Region of Interest (ROI) selection and pasting
+- **Output**: 
+
+![Experiment 18 Output](outputs/output_exp18.png)
+
+---
+
+## Experiment 19: Erosion Morphological Operation
+- **Source File**: `experiment19.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.erode(image_rgb, kernel, iterations=1)`
+- **Output**: 
+
+![Experiment 19 Output](outputs/output_exp19.png)
+
+---
+
+## Experiment 20: Dilation Morphological Operation
+- **Source File**: `experiment20.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.dilate(image_rgb, kernel, iterations=1)`
+- **Output**: 
+
+![Experiment 20 Output](outputs/output_exp20.png)
+
+---
+
+## Experiment 21: Opening Morphological Operation
+- **Source File**: `experiment21.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.morphologyEx(image_rgb, cv2.MORPH_OPEN, kernel)`
+- **Output**: 
+
+![Experiment 21 Output](outputs/output_exp21.png)
+
+---
+
+## Experiment 22: Closing Morphological Operation
+- **Source File**: `experiment22.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.morphologyEx(image_rgb, cv2.MORPH_CLOSE, kernel)`
+- **Output**: 
+
+![Experiment 22 Output](outputs/output_exp22.png)
+
+---
+
+## Experiment 23: Top Hat Morphological Operation
+- **Source File**: `experiment23.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.morphologyEx(image_rgb, cv2.MORPH_TOPHAT, kernel)`
+- **Output**: 
+
+![Experiment 23 Output](outputs/output_exp23.png)
+
+---
+
+## Experiment 24: Black Hat Morphological Operation
+- **Source File**: `experiment24.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.morphologyEx(image_rgb, cv2.MORPH_BLACKHAT, kernel)`
+- **Output**: 
+
+![Experiment 24 Output](outputs/output_exp24.png)
+
+---
+
+## Experiment 25: Watch Object Recognition
+- **Source File**: `experiment25.py`
+- **Input**: `sample_image.png`
+- **Operation**: Cascade Classifier / Hough Circle & Contour Object Detection
+- **Output**: 
+
+![Experiment 25 Output](outputs/output_exp25.png)
