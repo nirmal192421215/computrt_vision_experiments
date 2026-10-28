@@ -101,3 +101,73 @@ This document outlines the computer vision experiments implemented using Python 
 - **Output**: 
 
 ![Experiment 10 Output](outputs/output_exp10.png)
+
+---
+
+## Experiment 11: 180-Degree Rotation Clockwise
+- **Source File**: `experiment11.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.rotate(image_rgb, cv2.ROTATE_180)`
+- **Output**: 
+
+![Experiment 11 Output](outputs/output_exp11.png)
+
+---
+
+## Experiment 12: 270-Degree Rotation Clockwise
+- **Source File**: `experiment12.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.rotate(image_rgb, cv2.ROTATE_90_COUNTERCLOCKWISE)`
+- **Output**: 
+
+![Experiment 12 Output](outputs/output_exp12.png)
+
+---
+
+## Experiment 13: Affine Transformation
+- **Source File**: `experiment13.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.getAffineTransform()` and `cv2.warpAffine()`
+- **Output**: 
+
+![Experiment 13 Output](outputs/output_exp13.png)
+
+---
+
+## Experiment 14: Perspective Transformation
+- **Source File**: `experiment14.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.getPerspectiveTransform()` and `cv2.warpPerspective()`
+- **Output**: 
+
+![Experiment 14 Output](outputs/output_exp14.png)
+
+---
+
+## Experiment 15: Harris Corner Detection
+- **Source File**: `experiment15.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.cornerHarris()` and corner dilation marking
+- **Output**: 
+
+![Experiment 15 Output](outputs/output_exp15.png)
+
+---
+
+## Experiment 16: Sobel Filter Algorithm
+- **Source File**: `experiment16.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.Sobel()` along X, Y directions and `cv2.magnitude()`
+- **Output**: 
+
+![Experiment 16 Output](outputs/output_exp16.png)
+
+---
+
+## Experiment 17: Watermarking Technique
+- **Source File**: `experiment17.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.putText()` and `cv2.addWeighted()` blending
+- **Output**: 
+
+![Experiment 17 Output](outputs/output_exp17.png)
