@@ -251,3 +251,104 @@ This document outlines the computer vision experiments implemented using Python 
 - **Output**: 
 
 ![Experiment 25 Output](outputs/output_exp25.png)
+
+---
+
+## Experiment 26: Video Reversal
+- **Source File**: `experiment26.py`
+- **Input**: `video.mp4` / Camera feed
+- **Operation**: Frame buffer reversal and reverse playback using `cv2.VideoCapture()` and `cv2.VideoWriter()`
+- **Output**: 
+
+![Experiment 26 Output](outputs/output_exp26.png)
+
+---
+
+## Experiment 27: Face Detection
+- **Source File**: `experiment27.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.CascadeClassifier()` with `haarcascade_frontalface_default.xml`
+- **Output**: 
+
+![Experiment 27 Output](outputs/output_exp27.png)
+
+---
+
+## Experiment 28: Vehicle Detection in Video
+- **Source File**: `experiment28.py`
+- **Input**: `video.mp4` / Camera feed
+- **Operation**: Cascade vehicle detection per frame with bounding box localization
+- **Output**: 
+
+![Experiment 28 Output](outputs/output_exp28.png)
+
+---
+
+## Experiment 29: Eye Detection
+- **Source File**: `experiment29.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.CascadeClassifier()` with `haarcascade_eye.xml`
+- **Output**: 
+
+![Experiment 29 Output](outputs/output_exp29.png)
+
+---
+
+## Experiment 30: Smile Detection
+- **Source File**: `experiment30.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.CascadeClassifier()` with `haarcascade_smile.xml`
+- **Output**: 
+
+![Experiment 30 Output](outputs/output_exp30.png)
+
+---
+
+## Experiment 31: Threshold Segmentation
+- **Source File**: `experiment31.py`
+- **Input**: `sample_image.png`
+- **Operation**: `cv2.threshold()` for Binary, Inverse Binary, and Otsu segmentation
+- **Output**: 
+
+![Experiment 31 Output](outputs/output_exp31.png)
+
+---
+
+## Experiment 32: White Image with 4 Corner Color Boxes
+- **Source File**: `experiment32.py`
+- **Input**: User-entered dimensions (Width, Height)
+- **Operation**: Multi-dimensional NumPy array generation with Black, Blue, Green, Red corners (1/10th size)
+- **Output**: 
+
+![Experiment 32 Output](outputs/output_exp32.png)
+
+---
+
+## Experiment 33: Drawing Rectangle on White Image
+- **Source File**: `experiment33.py`
+- **Input**: User-entered dimensions (Width, Height)
+- **Operation**: `cv2.rectangle()` on user-sized canvas
+- **Output**: 
+
+![Experiment 33 Output](outputs/output_exp33.png)
+
+---
+
+## Experiment 34: Drawing Circle on White Image
+- **Source File**: `experiment34.py`
+- **Input**: User-entered dimensions (Width, Height)
+- **Operation**: `cv2.circle()` on user-sized canvas
+- **Output**: 
+
+![Experiment 34 Output](outputs/output_exp34.png)
+
+---
+
+## Experiment 35: Text Overlay on Image
+- **Source File**: `experiment35.py`
+- **Input**: `sample_image.png` & user-entered text string
+- **Operation**: `cv2.putText()` with anti-aliasing on source image
+- **Output**: 
+
+![Experiment 35 Output](outputs/output_exp35.png)
+
